@@ -1,0 +1,24 @@
+body{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.otp-box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-box-list{
+    display: flex;
+    align-items: center;
+}
+
+.otp-box-list .otp-box{
+    width: 20px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px 1px tomato;
+    border: none;
+    border-radius: 5px;
+}
